@@ -10,8 +10,13 @@ public class Main {
         LazyInitializedSingleton.getInstance();
         ThreadSafeSingleton.getInstance();
         ThreadSafeSingleton.getInstanceUsingDoubleLocking();
+        BillPughSingleton.getInstance();
+        BillPughSingleton.getInstance();
 
-        BillPughSingleton.getInstance();
-        BillPughSingleton.getInstance();
+        EnumSingleton enumSingletonInstanceOne = EnumSingleton.INSTANCE;
+        System.out.println(enumSingletonInstanceOne.hashCode());
+
+        EnumSingleton enumSingletonInstanceTwo = EnumSingleton.INSTANCE;
+        System.out.println(enumSingletonInstanceTwo.hashCode());
     }
 }
