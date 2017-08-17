@@ -10,5 +10,8 @@ public class Main {
         LazyInitializedSingleton.getInstance();
         ThreadSafeSingleton.getInstance();
         ThreadSafeSingleton.getInstanceUsingDoubleLocking();
+
+        BillPughSingleton.getInstance();
+        BillPughSingleton.getInstance();
     }
 }
