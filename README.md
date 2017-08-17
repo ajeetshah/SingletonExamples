@@ -1,0 +1,2 @@
+# SingletonExamples
+Singleton Design Pattern
