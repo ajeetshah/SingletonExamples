@@ -18,5 +18,7 @@ public class Main {
 
         EnumSingleton enumSingletonInstanceTwo = EnumSingleton.INSTANCE;
         System.out.println(enumSingletonInstanceTwo.hashCode());
+
+        SerializedSingleton.getInstance();
     }
 }
